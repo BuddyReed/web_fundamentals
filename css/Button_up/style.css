@@ -1,0 +1,20 @@
+.search_button {
+    width: 150px;
+    height: 30px;
+    margin: 40px;
+    background-color: white;
+    color: aqua;
+    padding: 5px;
+    border-radius: 9999px;
+    border-color: aqua;
+}
+
+.create_button{
+    width: 175px;
+    height: 30px;
+    margin: 40px;
+    background-color: blue;
+    color: white;
+    box-shadow: 10px 5px black;
+}
+

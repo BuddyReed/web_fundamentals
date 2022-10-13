@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 970px;
+    height: 970px;
+    background-color: black;
+    padding: 100px;
+}
+
+.test{
+    height: 500px;
+    width: 700px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    width: 260px;
+    height: 260px;
+    background-color: red;
+    border-radius: 50%;
+
+}
