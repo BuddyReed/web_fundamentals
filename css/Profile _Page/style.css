@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* container  */
+.container{
+    width: 970px;
+    height: 970px;
+    background-color: red;
+}
+/* container  */
+
+/* nav bar  */
+.navbar{
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar > h1{
+    margin-right: 20px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-links > li{
+    margin: 0px 10px;
+}
+
+.btm{
+    margin-left: 20px;
+    width: 70px;
+    height: 20px;
+    border: none;
+    background-color: #00a3b7;
+    color: white;
+}
+/* nav bar  */
+
+/* main body */
+
+.main-body{
+
+}
+/* Top Card Left (User Card)*/
+.usercard{
+    /* width: 400px;
+    padding: 20px; */
+}
+
+.usertop{
+    background-color: #00a3b7;
+}
+.mainimg{
+    width: 100px;
+    border-radius: 100%;
+    border: 5px solid black;
+    position: relative;
+    top: 50px;
+    left: 40px;
+}
+.userbtm{
+    padding: 50px 50px 20px 50px;
+    background-color: white;
+}
+.map{
+    width: 15px;
+    margin-right: 10px;
+}
+.texttop{
+    margin-top: 10px;
+}
+.textbtm{
+    margin-bottom: 10px;
+}
+.gear{
+    width: 20px;
+    margin-right: 10px;
+}
+.geared{
+    display: flex;
+}
+/* Top Card Left */
+
+/* Edu Card */
+
+
+/* Edu Card */
+.educard{
+
+}
+
+/* main body */
+
+

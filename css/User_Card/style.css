@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 970px;
+    height: 970px;
+    padding: 50px;
+    background-color: white;
+}
+
+.user{
+    width: 600px;
+}
+
+.top{
+    height: 100px;
+    background-color: turquoise;
+}
+
+.bottom{
+    background-color: white;
+    height: 130px;    
+    padding: 40px;
+    border-bottom: 3px solid grey;
+    border-right: 3px solid grey;
+    border-left: 3px solid grey;
+}
+
+.edpro{
+    display: flex;
+    align-items: center;
+}
+
+.mainimg{
+    width: 100px;
+    position: relative;
+    top: 40px;
+    left: 30px;
+
+}
+
+.map{
+    width: 10px;
+    margin-right: 10px;
+}
+
+.edit{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.texttop{
+    margin-top: 10px;
+}
+
+.textbtm{
+    margin-bottom: 10px;
+}
