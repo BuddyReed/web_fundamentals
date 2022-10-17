@@ -36,6 +36,8 @@
     height: 120px;
     width: 660px;
     background-color: purple;
+    margin-left: 10px;
+    padding-right: 12px;
 }
 .row {
     display: flex;

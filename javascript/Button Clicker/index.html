@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <!-- NavBar     -->
+        <div class="navbar">
+            <h1 class="navheader">Dojonary</h1>
+            <div class="searchbar">Search</div>
+            <button onclick="buttonClick(this)">Login</button>
+        </div>
+        <div class="main-body">
+            <div class="col-1">
+                <div class="box-1">
+                    <div class="ninja-1">
+                        <h1 class="ninhead">ninja</h1>
+                        <h2 class="ninmid">noun</h2>
+                        <h3 class="ninbtm">Plural: ninjas</h3>
+                        <button onclick="showAlert()">13 likes</button>
+                    </div>
+                    <div class="def-1">
+                        <P>A practitioner skilled in the</P>
+                        <p><a class="hypelink" href="">Japanese</a> art of <a class="hypelink" href="">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="box-1 box-2">
+                    <div class="ninja-1">
+                        <h1 class="ninhead">ninja</h1>
+                        <h2 class="ninmid">noun</h2>
+                        <h3 class="ninbtm">Plural: ninjas</h3>
+                        <button onclick="showAlert()">37 likes</button>
+                    </div>
+                    <div class="def-1">
+                        <P>A <a class="hypelink" href="">programmer</a> who breaks</P>
+                        <p> down prblems with <a class="hypelink" href="">zen</a>-like</p>
+                        <p>focus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="box-3">
+                    <p class="textbox-3">Dojonary is</p>
+                    <p class="textbox-3">defined by YOU</p>
+                    <button onclick="remove(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- JavaScriptLink -->
+    <script src="./main.js"></script>
+</body>
+</html>
