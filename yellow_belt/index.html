@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yellow Belt</title>
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Roboto+Slab">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <!-- search bar  -->
+        <div class="searchbar">
+            <div class="easy">
+                <img class="leaf" src="./images/assets/leaf.png" alt="">
+                <h1 class="easy-1">EasyBay</h1>
+            </div>
+            <input class="searchbox" type="text" placeholder="Search for anything">
+            <div class="cart">
+                <p>Sign In</p>
+                <img class="cartpic" onclick="message()" src="./images/assets/cart-dark.png" alt="">
+            </div>
+        </div>
+        <!-- navbar  -->
+        <div>
+            <ul class="navbar">
+                <li>Aeonium</li>
+                <li>Andormischus</li>
+                <li>Agave</li>
+                <li>Aloe</li>
+                <li>Anocampseros</li>
+                <li>Aristaloe</li>
+                <li>More...</li>
+            </ul>
+        </div>
+        <!-- header tex  -->
+        <h1 class="mainheader">Your Source for Serious Succulent Specialties</h1>
+        <!-- main body  -->
+        <div class="main-body">
+            <div class="row-1">
+                <div class="maintext-1">
+                    <p>Discover succ-ulent varieties one pot or rack at a time</p>
+                    <div class="maintext-2">
+                        <p>Discover</p>
+                        <img src="./images/assets/arrow-light.png" alt="arrow">
+                    </div>
+                </div>
+                    <img class="hoverimg" onmouseover="over(this)" onmouseout="out(this)" src="./images/assets/succulents-1.jpg" alt="main picture">
+                <div class="secpic">
+                    <img src="./images/assets/aloe-m.jpg" alt="">
+                    <div class="soothbox">
+                        <p class="soothtext">Soothiing Aloe</p>
+                        <img class="arrow" src="./images/assets/arrow-light.png" alt="arrow">
+                    </div>
+                </div>
+            </div>
+            <div class="row-2">
+                <div class="thepic">
+                    <img class="rowpic" src="./images/assets/aeonium-s.jpg" alt=" Aeotium">
+                    <p>Aeotium</p>
+                </div>
+                <div class="thepic">
+                    <img class="rowpic" src="./images/assets/aloe-s.jpg" alt="Aloe">
+                    <p>Aloe</p>
+                </div>
+                <div class="thepic">
+                    <img class="rowpic" src="./images/assets/cactus-s.jpg" alt="Cactus">
+                    <p>Cactus</p>
+                </div>
+                <div class="thepic">
+                    <img class="rowpic" src="./images/assets/echeveria-s.jpg" alt="Echeveria">
+                    <p>Echeveria</p>
+                </div>
+                <div class="thepic">
+                    <img class="rowpic" src="./images/assets/sedum-s.jpg" alt="Sedum">
+                    <p>Sedum</p>
+                </div>
+                <div class="thepic">
+                    <img class="rowpic" src="./images/assets/sempervivum-s.jpg" alt="Sempervivum">
+                    <p>Sempervivum</p>
+                </div>
+            </div>
+        <!-- alert box  -->
+        </div>
+        <div class="alertbox">
+            <img src="./images/assets/alert-dark.png" alt="Alert">
+            <div class="alerttext">
+                <p>The site makes use of third-party cookies, by clicking "I accept"</p>
+                <p>you agree to the terms outlined in our <a class="hyper" href=""> cookie policy</a></p>
+            </div>
+            <button class="removebtm" onclick="removebox()"> I Accept</button>
+        </div>
+    </div>
+    <div class="col"></div>
+    <div class="col"></div>
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,179 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 970px;
+    padding: 20px 100px;
+}
+
+
+/* search bar  */
+.searchbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.leaf{
+    background-color: turquoise;
+    width: 50px;
+    height: 40px;
+    margin-right: 20px;
+    
+}
+
+.easy{
+    display: flex;
+    align-items: center;
+    font-family: "Open Sans";
+}
+
+.easy-1{
+    font-family: "Roboto Slab";
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+
+    
+}
+
+.searchbox{
+    width: 450px;
+    height: 20px;
+    border-radius: 10px;
+    padding-left: 5px;
+
+}
+
+.cartpic{
+    width: 40px;
+    padding-left: 10px;
+}
+
+/* navbar  */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    border-bottom: 4px solid black;
+    padding: 10px 0px;
+    
+}
+
+/* navbar  */
+
+
+/* main header  */
+.mainheader{
+    text-align: center;
+    margin: 20px 0px;
+    
+    font-size: 2em;
+
+}
+/* main header  */
+
+/* main body  */
+.row-1{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.maintext-1{
+    background-color: turquoise;
+    color: white;
+    height: 241px;
+    font-size: 2em;
+    text-align: center;
+    padding: 42px;
+    
+    
+}
+.maintext-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hoverimg{
+    margin-right: 15px;
+    
+    
+}
+
+
+.soothbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 54px;
+    background-color: turquoise;
+    font-size: 1.5em;
+    color: white;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.arrow{
+    width: 50px;
+}
+
+
+
+/* row2 */
+
+.row-2{
+    display: flex;
+    justify-content: space-between;
+    background-color: turquoise;
+    padding: 50px;
+    margin-top: 20px;
+    /* width: 100%; */
+}
+
+.rowpic{
+    width: 100px;
+    border-radius: 100%;
+}
+
+.thepic{
+    text-align: center;
+}
+
+/* alert box */
+.alertbox{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    border: 3px solid black;
+    position: relative;
+    bottom: 55px;
+}
+
+.removebtm{
+    width: 100px;
+    height: 30px;
+    background-color: turquoise;
+    color: white;
+    box-shadow: 4px 4px 4px black;
+    border: 3px solid black;
+    font-size: 20px;
+}
+
+.hyper{
+    color: #1e6398;
+}
+/* alert box */
+
+
+/* main body  */
